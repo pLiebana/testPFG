@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+django-ckeditor = "*"
+pillow = "*"
+pylint = "*"
+pylint-django = "*"
+pylint-celery = "*"
+
+[dev-packages]
+pylint = "*"
+pylint-django = "*"
+autopep8 = "*"
+pycodestyle = "*"
+
+[requires]
+python_version = "3.11"
+
+[scripts]
+webpersonal = "python webpersonal/manage.py runserver"
